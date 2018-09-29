@@ -1,6 +1,7 @@
 
 # ServiceRegister
-服务注册组件
+
+Consul 服务注册/发现组件。
 
 ## doc
 
@@ -8,8 +9,8 @@
 
 ```json
 "Service": {
-    "Name": "OrgSvc",
-    "IP": "10.1.75.52",
+    "Name": "OrgSvc",  
+    "IP": "10.1.75.52", 
     "Port": "80"
   },
   "Consul": {
